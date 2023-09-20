@@ -1,0 +1,66 @@
+.large-header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.nav-details {
+  display: flex;
+}
+.home {
+  font-size: 16px;
+  color: #000000;
+  margin-right: 30px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.lab-tests {
+  font-size: 20px;
+  margin-right: 30px;
+  color: #138ed1;
+}
+.logo {
+  height: 50px;
+}
+
+.header-btn {
+  align-self: flex-start;
+  margin-right: 20px;
+  padding: 10px;
+  background-color: #00486c;
+  color: #ffffff;
+  border-width: 0;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.small-header-container {
+  display: none;
+}
+
+@media (max-width: 820px) {
+  .large-header-container {
+    display: none;
+  }
+  .small-header-container {
+    display: block;
+  }
+  .small-header-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .logo-btn {
+    background-color: transparent;
+    border-width: 0;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .logo {
+    height: 40px;
+  }
+  .small-nav-details {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
